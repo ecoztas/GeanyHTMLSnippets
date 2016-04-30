@@ -1,0 +1,172 @@
+# geany-html snippets by Emre Can OZTAS
+# mail: emrecanoztas@outlook.com
+
+[HTML]
+xhtml=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html>\n<head>\n\t<title>untitled</title>\n\t<meta charset="utf-8">\n</head>\n<body>\n%cursor%\n</body>\n</html>
+html4=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">\n<html>\n<head>\n\t<title>untitled</title>\n\t<meta charset="utf-8">\n</head>\n<body>\n%cursor%\n</body>\n</html>
+html5=<!DOCTYPE html>\n<html>\n<head>\n\t<title>untitled</title>\n\t<meta charset="utf-8">\n</head>\n<body>\n%cursor%\n</body>\n</html>
+# elements
+meta=<meta %cursor%>
+dmeta=<meta name="description" content="%cursor%">
+kmeta=<meta name="keywords" content="%cursor%">
+ameta=<meta name="author" content="%cursor%">
+cmeta=<meta charset="UTF-8">
+rmeta=<meta name="viewport" content="width=device-width, initial-scale=1">
+html=<html>%cursor%</html>
+head=<head>%cursor%</head>
+title=<title>%cursor%</title>
+body=<body>%cursor%</body>
+dtype=<!DOCTYPE html>
+h1=<h1>%cursor%</h1>
+h2=<h2>%cursor%</h2>
+h3=<h3>%cursor%</h3>
+h4=<h4>%cursor%</h4>
+h5=<h5>%cursor%</h5>
+h6=<h6>%cursor%</h6>
+p=<p>%cursor%</p>
+a=<a href="%cursor%">This is a link</a>
+b=<b>%cursor%</b>
+i=<i>%cursor%</i>
+q=<q>%cursor%</q>
+u=<u>%cursor%</u>
+s=<s>%cursor%</s>
+em=<em>%cursor%</em>
+big=<big>%cursor%</big>
+small=<small>%cursor%</small>
+img=<img src="%cursor%" alt="This a image">
+br=<br>
+pre=<pre>%cursor%</pre>
+mark=<mark>%cursor%</mark>
+del=<del>%cursor%</del>
+ins=<ins>%cursor%</ins>
+sub=<sub>%cursor%</sub>
+sup=<sup>%cursor%</sup>
+block=<blockquote>%cursor%</blockquote>
+address=<address>%cursor%</address>
+bdo=<bdo>%cursor%</bdo>
+code=<code>%cursor%</code>
+kbd=<kbd>%cursor%</kbd>
+var=<var>%cursor%</var>
+cmtm=<!--\n %cursor% \n-->
+cmt=<!-- %cursor% -->
+table=<table>\n\t<tr>\n\t\t<td>%cursor%</td>\n\t</tr>\n</table>
+td=<td>%cursor%</td>
+tr=<tr>%cursor%</tr>
+caption=<caption>%cursor%</caption>
+ul=<ul>\n<li>%cursor%</li>\n</ul>
+ol=<ol>\n<li>%cursor%</li>\n</ol>
+li=<li>%cursor%</li>
+dl=<dl>\n<dt>title</dt>\n<dd>info</dd>\n</dl>
+div=<div>%cursor%</div>
+span=<span>%cursor%</span>
+label=<label>%cursor%</label>
+iframe=<iframe src="%cursor%"></iframe>
+form=<form method="GET" action="%cursor%">\n\n</form>
+formh=<form>\n%cursor%\n</form>
+select=<select name="%cursor%">\n<option value="title">title</option>\n</select>
+option=<option value="title">title</option>
+textarea=<textarea name="msg" rows="50" cols="100">\n%cursor%\n</textarea>
+keygen=<keygen name="%cursor%">
+output=<output>%cursor%</output>
+inputt=<input type="text" name="%cursor%" placeholder="input text here">
+inputb=<input type="button" value="%cursor%">
+inputsu=<input type="submit" value="%cursor%">
+inputr=<input type="reset" value="%cursor%">
+inputra=<input type="radio" name="%cursor%" value="other">
+inputran=<input type="range" name="other" min="0" max="100">
+inputc=<input type="checkbox" name="%cursor%" value="other">
+inputco=<input type="color" name="other">
+inputn=<input type="number" name="other" min="1" max="100">
+inputd=<input type="date" name="other">
+inputm=<input type="month" name="other">
+inputw=<input type="week" name="other">
+inputti=<input type="time" name="other">
+inputdt=<input type="datetime" name="other">
+inputdl=<input type="datetime-local" name="other">
+inpute=<input type="email" name="other">
+inputs=<input type="search" name="other">
+inputte=<input type="tel" name="other">
+inputu=<input type="url" name="other">
+inputl=<input list="other">\n\n\t<datalist id="other">\n\t<option value="value">\n</datalist>
+cssh=<link rel="stylesheet" type="text/css" href="%cursor%">
+cssf=<style>\n%cursor%\n</style>
+js=<script type="text/javascript">\n%cursor%\n</script>
+jsh=<script type="text/javascript" src="%cursor%"></script>
+noscript=<noscript>your browser does not support JavaScript!</noscript>
+section=<section>%cursor%</section>
+header=<header>%cursor%</header>
+footer=<footer>%cursor%</footer>
+nav=<nav>%cursor%</nav>
+aside=<aside>%cursor%</aside>
+figure=<figure>%cursor%</figure>
+figcaption=<figcaption>%cursor%</figcaption>
+canvas=<canvas>%cursor%</canvas>
+svg=<svg>%cursor%</svg>
+video=<video>%cursor%</video>
+source=<source src="%cursor%" type="video/mp4">
+track=<track src="%cursor%">
+details=<details>%cursor%</details>
+hr=<hr>
+ruby=<ruby>%cursor%</ruby>
+rt=<rt>%cursor%</rt>
+rp=<rp>%cursor%</rp>
+abbr=<abbr>%cursor%</abbr>
+acronym=<acronym>%cursor%</acronym>
+strong=<strong>%cursor%</strong>
+embed=<embed src="%cursor%"></embed>
+article=<article>%cursor%</article>
+map=<map>%cursor%</map>
+blink=<blink>%cursor%</blink>
+cite=<cite>%cursor%</cite>
+colgroup=<colgroup>\n%cursor%<colgroup>
+col=<col>
+dfn=<dfn>%cursor%</dfn>
+dir=<dir>\n<li>%cursor%</li>\n</dir>
+marquee=<marquee>%cursor%</marquee>
+menu=<menu>%cursor%</menu>
+menuitem=<menuitem>%cursor%</menuitem>
+obj=<object>%cursor%</object>
+samp=<samp>%cursor%</samp>
+th=<th>%cursor%</th>
+tbody=<tbody>%cursor%</tbody>
+thead=<thead>%cursor%</thead>
+tfoot=<tfoot>%cursor%</tfoot>
+# attributes
+sty=style=""
+act=action="%cursor%"
+mth=method="%cursor%"
+nm=name="%cursor%"
+id=id="%cursor%"
+cls=class="%cursor%"
+std=selected="%cursor%"
+va=value="%cursor%"
+alt=alt="%cursor%"
+min=min="%cursor%"
+max=max="%cursor%"
+sz=size="%cursor%"
+hg=height="%cursor%"
+wd=width="%cursor%"
+rdl=readonly
+dsl=disabled
+mx=maxlength="%cursor%"
+mlp=multiple
+acl=autocomplete="%cursor%"
+afc=autofocus
+apl=autoplay
+nov=novalidate
+fmty=formenctype
+fmc=formaction
+fmv=formnovalidate
+fmt=formtarget
+ptn=pattern="%cursor%"
+ph=placeholder="%cursor%"
+rq=required
+st=step="%cursor%"
+ctn=content="%cursor%"
+kind=kind="%cursor%"
+sls=srclang="%cursor%"
+sr=src="%cursor%"
+data=data"%cursor%"
+shp=shape="%cursor%"
+co=coords="%cursor%"
+pro=prompt=""
